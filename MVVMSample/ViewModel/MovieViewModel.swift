@@ -19,6 +19,8 @@ class MovieViewModel: NSObject {
     init(movie:MovieModel){
         self.artistName = movie.artistName
         self.trackName = movie.trackName
+        
+        print("Hello")
     }
     
 }
